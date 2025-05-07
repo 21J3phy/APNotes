@@ -1,114 +1,168 @@
-# 🔍 Keyword Search Guide for Baron’s AP CSA Review
+# AP CSA Exam Review Notes
 
-## 🧠 Based on the Questions You Got Wrong
+## Quick Overview
 
----
-
-### Q1 – Inheritance
-
-**Search:** `Java inheritance basics` / `AP CSA 9.1 inheritance`
-
----
-
-### Q2 – Relationship Between Classes
-
-**Search:** `Java class relationships` / `AP CSA 2.1 2.2 class design`
+- **Multiple Choice**: 40 questions, 1 hour 30 minutes
+- **Free Response**: 4 questions, 1 hour 30 minutes
+- Focus on **tracing code**, especially with loops and arrays.
+- **Write clean code** in FRQs! Comment if needed.
+- Remember, **syntax matters**. If it doesn’t compile, it won’t run.
 
 ---
 
-### Q3 – ConcurrentModificationException
+## Java Basics
 
-**Search:** `Java ConcurrentModificationException explained`
-🟡 This is more Java-specific and not always covered in AP CSA detail
+### Variables
 
----
+- Variables hold data.
+- Data types: `int`, `double`, `boolean`, `String`.
 
-### Q8 – Program Specification
+```java
+int a = 10;
+double b = 3.14;
+boolean isTrue = true;
+String name = "Java";
+```
 
-**Search:** `AP CSA program specification` / `how to read Java method prompts`
+### Operators
 
----
-
-### Q11 – 2D Arrays
-
-**Search:** `Java 2D arrays` / `AP CSA 8.1 8.2`
-
----
-
-### Q14 – Passing Parameters
-
-**Search:** `Java pass by value` / `AP CSA 5.6 writing methods parameters`
+- Arithmetic: `+`, `-`, `*`, `/`, `%`
+- Comparison: `==`, `!=`, `<`, `>`, `<=`, `>=`
+- Logical: `&&`, `||`, `!`
+- Assignment: `=`
 
 ---
 
-### Q15 – Subclasses
+## Classes and Objects
 
-**Search:** `Java subclass vs superclass` / `AP CSA 9.1`
+### Constructor
 
----
+- A constructor initializes objects.
+- Must match the class name.
 
-### Q17 – Polymorphism
+```java
+public class Dog {
+  private String name;
 
-**Search:** `Java polymorphism explained` / `AP CSA 9.6 polymorphism`
+  public Dog(String n) {
+    name = n;
+  }
+}
+```
 
----
+### Methods
 
-### Q20 – Recursion
+- Methods define the behavior of an object.
 
-**Search:** `Java recursion examples` / `AP CSA 10.1 recursion`
+```java
+public void bark() {
+  System.out.println("Woof!");
+}
+```
 
----
+- `this` refers to the current object.
 
-### Q21 – Selection & Insertion Sort
+```java
+public Dog(String name) {
+  this.name = name;
+}
+```
 
-**Search:** `Java selection sort` / `Java insertion sort` / `AP CSA 7.6 sorting`
+### Creating Objects
 
----
-
-### Q22 – Subclass Method Calls
-
-**Search:** `Java overriding methods` / `AP CSA 9.3 subclass method call`
-
----
-
-### Q24 – String equals and substring
-
-**Search:** `Java .equals vs ==` / `Java substring method` / `AP CSA 2.7 3.7`
-
----
-
-### Q26 – Array Processing
-
-**Search:** `Java array traversal` / `Java process array` / `AP CSA 6.2 6.4`
-
----
-
-This
-
-### Q28 – Binary Search
-
-**Search:** `Java binary search example` / `AP CSA 7.5 binary search`
+```java
+Dog dog = new Dog("Buddy");
+```
 
 ---
 
-### Q33 – Array of Objects / ArrayList
+## Loops and Conditionals
 
-**Search:** `Java array of objects` / `Java ArrayList basics` / `AP CSA 7.1 – 7.3`
+### if/else Statements
+
+- Use for decision-making.
+
+```java
+if (x > 10) {
+  System.out.println("Greater");
+} else {
+  System.out.println("Smaller or equal");
+}
+```
+
+### for Loop
+
+- Good for repeating tasks a set number of times.
+
+```java
+for (int i = 0; i < 5; i++) {
+  System.out.println(i);
+}
+```
+
+### while Loop
+
+- Good for repeating until a condition is false.
+
+```java
+while (x < 5) {
+  x++;
+}
+```
 
 ---
 
-### Q34 – NullPointerException
+## Arrays and ArrayLists
 
-**Search:** `Java NullPointerException fix` / `why null error in Java`
+### Arrays
+
+- Store fixed-size lists of elements.
+
+```java
+int[] nums = {1, 2, 3};
+nums[0] = 10;  // Modifying an array element
+```
+
+### ArrayLists
+
+- Store dynamic-size lists.
+
+```java
+ArrayList<String> list = new ArrayList<>();
+list.add("Hello");
+list.get(0);  // Retrieves element at index 0
+list.set(0, "Hi");
+```
+
+- Don’t forget to import `java.util.ArrayList;`
 
 ---
 
-### Q36 – 2D Array Processing / Mirror Images
+## Inheritance
 
-**Search:** `Java mirror 2D array` / `AP CSA 8.2 traversing 2D arrays`
+### Extending a Class
+
+- One class can inherit from another.
+
+```java
+public class Dog extends Animal {
+  public void bark() {
+    System.out.println("Woof!");
+  }
+}
+```
+
+- `super()` is used to call the parent class's constructor or methods.
 
 ---
 
-### Q39 – Using super in a Subclass
+## Important Methods to Remember
 
-**Search:** `Java super keyword` / `AP CSA 9.4 super constructor`
+- ArrayList Methods: `add()`, `get()`, `set()`, `remove()`, `size()`
+- Array Traversal: Loop through with `for` or `for-each`.
+
+```java
+for (int i = 0; i < arr.length; i++) {
+  System.out.println(arr[i]);
+}
+```
