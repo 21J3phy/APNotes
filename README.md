@@ -2,4 +2,4 @@
 
 *by Nirav*
 
-##All of my notes for my AP Classes
+## All of my notes for my AP Classes
