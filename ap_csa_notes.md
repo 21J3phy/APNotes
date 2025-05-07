@@ -2,14 +2,6 @@
 
 _by Nirav + ChatGPT_
 
-## Quick Overview
-
-- **Multiple Choice**: 40 questions, 1 hour 30 minutes
-- **Free Response**: 4 questions, 1 hour 30 minutes
-- Focus on **tracing code**, especially with loops and arrays.
-- **Write clean code** in FRQs! Comment if needed.
-- Remember, **syntax matters**. If it doesn’t compile, it won’t run.
-
 ---
 
 ## Java Basics
