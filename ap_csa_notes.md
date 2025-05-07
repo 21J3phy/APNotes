@@ -1,5 +1,7 @@
 # AP CSA Exam Review Notes
 
+_by Nirav + ChatGPT_
+
 ## Quick Overview
 
 - **Multiple Choice**: 40 questions, 1 hour 30 minutes
