@@ -4,7 +4,7 @@
 
 ---
 
-### Q1 – Inheritance - nirav
+### Q1 – Inheritance
 
 **Search:** `Java inheritance basics` / `AP CSA 9.1 inheritance`
 
