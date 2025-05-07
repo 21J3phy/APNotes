@@ -1,5 +1,7 @@
-# APUSH Notes
+# APUSH2025: Surabhi
+
 ## Rubric
+
 ```
 NO GPT!
 Comprehensive overview key ideas + concepts
@@ -10,7 +12,9 @@ An essay prompt per study guide
 Clearly Written + Organized
 Everything Accurate
 ```
+
 ## Study Guide #1 - Period 1 and 2
+
 ```
 Focus: development + interactions of Natives & Europeans
 
@@ -21,7 +25,3 @@ Skill: Causation
 2. Colonial Regions + Soceity
 3. Europe Rivalries / French Indian war
 4. Sources of tension among Natives, Africans, Europeans
-
-
-
-
